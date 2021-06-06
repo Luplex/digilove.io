@@ -19,6 +19,12 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+.logo {
+    width: 60px;
+    text-align: center;
+    margin: 5px auto;
+    display: flex;
+}
 .swiper-container {
 	margin-bottom: 50px;
 }
