@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.256" height="83.256" viewBox="0 0 83.256 83.256">
+  <defs>
+    <filter id="Ellipse_3-2" x="0" y="0" width="83.256" height="83.256" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="boutonPlus" transform="translate(-288.687 -754.946)">
+    <g transform="matrix(1, 0, 0, 1, 288.69, 754.95)" filter="url(#Ellipse_3-2)">
+      <circle id="Ellipse_3-2-2" data-name="Ellipse 3-2" cx="32.628" cy="32.628" r="32.628" transform="translate(9 6)" fill="#b52d15"/>
+    </g>
+  </g>
+</svg>

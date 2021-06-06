@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.858" height="69.859" viewBox="0 0 69.858 69.859">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.315" y1="0.5" x2="0.685" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f28f49"/>
+      <stop offset="0.166" stop-color="#e3783c"/>
+      <stop offset="0.535" stop-color="#c94d25"/>
+      <stop offset="0.825" stop-color="#ba3519"/>
+      <stop offset="1" stop-color="#b52d15"/>
+    </linearGradient>
+    <filter id="Ellipse_3-2" x="0" y="0" width="69.858" height="69.859" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_246" x="20.684" y="13.173" width="33.709" height="41.646" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="next" transform="translate(-257.718 -724.562)">
+    <g id="Groupe_161" data-name="Groupe 161" transform="translate(266.718 730.562)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_3-2)">
+        <ellipse id="Ellipse_3-2-2" data-name="Ellipse 3-2" cx="25.929" cy="25.929" rx="25.929" ry="25.929" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 257.72, 724.56)" filter="url(#Tracé_246)">
+      <path id="Tracé_246-2" data-name="Tracé 246" d="M12.1,0,0,10.043l12.1,9.386" transform="translate(43.89 40.71) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

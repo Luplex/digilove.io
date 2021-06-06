@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.226" height="86.227" viewBox="0 0 86.226 86.227">
+  <defs>
+    <filter id="Ellipse_3-2" x="0" y="0" width="86.226" height="86.227" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="menu_article" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_3-2)">
+      <ellipse id="Ellipse_3-2-2" data-name="Ellipse 3-2" cx="34.113" cy="34.113" rx="34.113" ry="34.113" transform="translate(9 6)" fill="#dd8f93"/>
+    </g>
+    <g id="articles" transform="translate(20.584 17.633)">
+      <path id="articles-2" data-name="articles" d="M250.516,146.323l-3.6-3.6v3.6Zm7.49,8.4h0l.785-.7-3.687-3.7-.7.767Zm-.669.762h0l-3.7-3.694-11.717,11.788,3.625,3.6Zm-3.658-5.112h0l1.425-1.416,5.153,5.064-1.486,1.447.019.017-.377.387-6.143,6.095v11.856H227.2v-32.96h19.116l.068.048a.406.406,0,0,1,.32.148l1.055,1.058,4.512,4.2v5.389c.458-.443.9-.925,1.368-1.383Zm-10.868,17.88h0l-1.94-1.938-.193,2.132Zm-1.94-3.5h0l4.175,4.3-5.552.569.579-5.568Zm10.312-1.708h0l-5.637,5.6-5.093-5.061q5.374-5.371,10.729-10.78V147.4h-4.77a.535.535,0,0,1-.574-.476v-4.975h-17.65v30.9h22.994Z" transform="translate(-227.201 -140.867)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

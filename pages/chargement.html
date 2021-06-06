@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Lucien AU" />
+    <meta name="copyright" content="MAL" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <meta name="description" content="Desciption du site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../AssetDev/favicon/favicon.png" />
+    <link rel="stylesheet" href="../css/chargement.css">
+    <title>Titre de notre site manifest</title>
+</head>
+<body>
+ 
+    <div class="container">
+        <p class="texte_reponse"> Retrouvez les réponses dans l’application</p>
+        <div class="texte">
+            <p>Vous allez etre rediriger sur la page suivante d'ici 4 battements</p>
+        </div>
+        <button style="z-index: 9999;" id="mute-video">Cliquez pour écouter le song</button>
+        
+        <video  class="fullscreen-video" autoplay="autoplay" muted loop  class="video_chargement">
+            <source src="../AssetDev/video/chargement_video.mp4">
+        </video >
+        
+       
+        
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../script/chargement.js"></script>
+</body>
+
+</html>

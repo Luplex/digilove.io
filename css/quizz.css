@@ -1,0 +1,179 @@
+
+
+/* Ici ce sont des paramêtres généraux de la mise en page, corps des titres, dimensions des zones, marges extérieures ou intérieures... */
+
+/*css perso*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,100;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: url(../Manifest/code/AssetDev/bg/bgQuizz.svg) no-repeat;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Ici les styles spécifiques pour le Quizz */
+#qcm {
+  width: 100%;
+}
+#qcm .question {
+  color: white;
+  font-size: 4vmin;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#qcm .answers {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+#qcm .answers label {
+  display: block;
+ 
+}
+#qcm button {
+  border: none;
+  background: none;
+  margin: 40px auto;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px ;
+  text-decoration: none;
+  color: #CC6F80 ;
+  background-color: white;
+  border: none;
+  border-radius: 26px;
+  margin-top: 80px;
+  padding: 10px 80px;
+  font-size: 15px;
+}
+#qcm button:hover {
+  background-color: #F7D8D7;  
+  color: white;
+}
+#qcm button.focus {
+  
+  color: #D3C1ED
+}
+
+#qcm .slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#qcm .active-slide {
+  opacity: 1;
+  z-index: 2;
+ 
+}
+  
+
+
+#qcm .quiz-container {
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+#qcm #results {
+  text-align: center;
+  font-size: 5vmin;
+  font-weight: bold;
+  color: white;
+}
+
+.qcm-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 3vh;
+  cursor: pointer;
+  font-size: 3vmin;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+}
+
+
+/* On cache la puce radio de base */
+.qcm-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Le javascript ajoute une autre puse radio qu'on style */
+.qcm-container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+/* Au rollover, on lui donne un fond rouge */
+.qcm-container:hover input ~ .checkmark {
+  background-color: #FFB3B1;
+}
+
+/* Une fois sélectionnées aussi, fond rouge */
+.qcm-container input:checked ~ .checkmark {
+  background-color: #FFB3B1;
+}
+
+/* On créé un indicateur (un rond plus petit, caché quan dnon sélectionné) */
+.qcm-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* L'indicateur est montré une fois sélectionné */
+.qcm-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* On style le rond indicateur
+.qcm-container .checkmark:after {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #A39F03;
+}
+ */

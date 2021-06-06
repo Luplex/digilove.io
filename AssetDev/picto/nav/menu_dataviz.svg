@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.226" height="86.227" viewBox="0 0 86.226 86.227">
+  <defs>
+    <filter id="Ellipse_3-2" x="0" y="0" width="86.226" height="86.227" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="menu_dataviz" transform="translate(8.999 6)">
+    <g id="Groupe_161" data-name="Groupe 161" transform="translate(0.001 0)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_3-2)">
+        <ellipse id="Ellipse_3-2-2" data-name="Ellipse 3-2" cx="34.113" cy="34.113" rx="34.113" ry="34.113" transform="translate(9 6)" fill="#da8d91"/>
+      </g>
+    </g>
+    <g id="dataviz" transform="translate(16.477 15.946)">
+      <path id="Tracé_17" data-name="Tracé 17" d="M674.536,102.545h16.75A16.748,16.748,0,1,1,674.536,85.8Z" transform="translate(-657.789 -82.958)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Tracé_18" data-name="Tracé 18" d="M692.014,97.81h16.748a16.753,16.753,0,0,0-16.748-16.748Z" transform="translate(-671.489 -81.062)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

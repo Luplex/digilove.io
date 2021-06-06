@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="761.402" height="803.678" viewBox="0 0 761.402 803.678">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bc2d51"/>
+      <stop offset="0.207" stop-color="#c44562"/>
+      <stop offset="0.643" stop-color="#db858f"/>
+      <stop offset="1" stop-color="#efbeb7"/>
+    </linearGradient>
+  </defs>
+  <path id="forme_bottom_right" d="M474.794,101.8c-30.061,30.127-53.721,68.534-80.831,102.595-41.06,51.6-90.352,93.349-144.28,122.217-47.337,25.341-98.093,43.949-137.97,84.145C55.688,467.225,45.763,567.8,81.053,639.622c22.156,45.086,60.592,75.776,101.64,91.469s84.778,17.65,127.742,15.369c46.89-2.491,94-10,138.22-29.243,71.376-31.064,132.927-92.47,176-168.7s66.64-152.209,74.867-244.332c5.039-56.413-1.672-124.657-18.373-168.437-16.024-42.009-51.881-80.416-93.507-82.519-16.57-.836-36.207,1.687-51.716,8.079A182.26,182.26,0,0,0,474.794,101.8Z" transform="translate(678.157 867.309) rotate(-169)" opacity="0.5" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+</svg>

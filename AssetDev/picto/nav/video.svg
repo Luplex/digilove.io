@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249.928" height="233.002" viewBox="0 0 249.928 233.002">
+  <defs>
+    <filter id="Tracé_14" x="0" y="0" width="249.928" height="233.002" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="video" transform="translate(35.5 32.5)">
+    <g id="Groupe_3" data-name="Groupe 3" transform="translate(0 0)">
+      <ellipse id="Ellipse_20" data-name="Ellipse 20" cx="14.168" cy="11.807" rx="14.168" ry="11.807" transform="translate(47.227 143.29)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+      <g transform="matrix(1, 0, 0, 1, -35.5, -32.5)" filter="url(#Tracé_14)">
+        <path id="Tracé_14-2" data-name="Tracé 14" d="M335.018,388.494H317.672a7.254,7.254,0,0,0,0,14.508h17.346a6.948,6.948,0,0,0,6.833-7.176v-.155A6.951,6.951,0,0,0,335.018,388.494ZM472.42,241H322.508A14.507,14.507,0,0,0,308,255.508v96.718a14.506,14.506,0,0,0,14.508,14.507H472.42a14.506,14.506,0,0,0,14.508-14.507V255.508A14.507,14.507,0,0,0,472.42,241Zm-45.627,66.624L384.876,333.3a4.406,4.406,0,0,1-6.707-3.758V278.2a4.406,4.406,0,0,1,6.707-3.762l41.917,25.674A4.408,4.408,0,0,1,426.793,307.624Zm50.462,80.87H406.715a6.951,6.951,0,0,0-6.833,7.176v.155A6.948,6.948,0,0,0,406.715,403h70.541a7.254,7.254,0,1,0,0-14.508Z" transform="translate(-272.5 -208.5)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+      </g>
+    </g>
+  </g>
+</svg>
