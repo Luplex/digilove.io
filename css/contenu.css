@@ -144,9 +144,11 @@ h2,
 }
 .swiper-pagination-bullets {
 	bottom: -1px !important;
+	
+}
+.swiper-pagination-bullet-active{
 	background: #dd8f93 !important;
 }
-
 /*card open*/
 .swiper-slide_open {
 	border: 2px solid #c54365;
