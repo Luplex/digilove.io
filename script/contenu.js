@@ -85,7 +85,17 @@ $(document).ready(function(){
     
   });
  
- 
+  const burst = new mojs.Burst({
+    radius:   { 0: 100 },
+    count:    5,
+    children: {
+      shape:        'circle',
+      radius:       20,
+      fill:         [ 'deeppink', 'cyan', 'yellow' ],
+      strokeWidth:  5,
+      duration:     2000
+    }.replay()
+  });
  
   
 
