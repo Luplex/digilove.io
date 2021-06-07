@@ -120,6 +120,9 @@ img {
 .img_content{
 	display: none;
 }
+.img_content_open{
+	display: block;
+}
 .slider-categorie {
 	display: flex;
 	align-items: center;
