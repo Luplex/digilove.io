@@ -45,6 +45,7 @@ $(document).ready(function(){
 
   $(".swiper-slide").click(function(){
     $(this).toggleClass("swiper-slide_open");
+    $(this).find(".picto_categorie").toggleClass("picto_categorie_open");
     $(this).find(".iframe_ytb").toggleClass("iframe_ytb_open");
     $(this).find(".img_content").toggleClass("img_content_open");
     $(this).find(".book_container").toggleClass("book_container_open");

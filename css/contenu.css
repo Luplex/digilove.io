@@ -247,6 +247,12 @@ h2,
 .cross {
 	display: none;
 }
+.picto_categorie{
+	display: block;
+}
+.picto_categorie_open{
+	display: none;
+}
 .swiper-pagination {
 	position: relative;
 	bottom: 1px;
