@@ -104,7 +104,7 @@ img {
 }
 .card {
 	position: relative;
-	background: url(../image/dataviz/amour_virtuel.png) no-repeat;
+	background: url(../image/dataviz/cover_bg/amour_virtuel.png) no-repeat;
 	background-size: cover;
 	height: 70vh;
 	margin: 0 auto;
@@ -136,7 +136,7 @@ img {
 }
 h2,
 .slider-categorie p {
-	color: white;
+	color: black;
 }
 .contenu_textuel {
 	display: none;
