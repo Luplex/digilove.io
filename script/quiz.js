@@ -135,11 +135,12 @@
           b: "Réussir la première rencontre",
           c: "Instaurer un jeu de séduction",
         },
-        correctAnswer: "c"
+        correctAnswer: "b"
       }
       
     ];
-  
+    
+
     // Kick things off
     buildQuiz();
   
