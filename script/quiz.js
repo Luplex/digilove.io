@@ -120,23 +120,22 @@
         correctAnswer: "b"
       },
       {
-        question: "Which one of these is a JavaScript package manager?",
+        question: "Combien de français est présent sur une application de rencontre ?",
         answers: {
-          a: "Node.js",
-          b: "TypeScript",
-          c: "npm"
+          a: "1 français sur 3",
+          b: "2 français sur 3",
+          c: "3 français sur 3"
         },
-        correctAnswer: "c"
+        correctAnswer: "a"
       },
       {
-        question: "Which tool can you use to ensure code quality?",
+        question: "Le plus difficile dans une rencontre en ligne, c’est :",
         answers: {
-          a: "Angular",
-          b: "jQuery",
-          c: "RequireJS",
-          d: "ESLint"
+          a: "Écrire un premier message",
+          b: "Réussir la première rencontre",
+          c: "Instaurer un jeu de séduction",
         },
-        correctAnswer: "d"
+        correctAnswer: "c"
       }
       
     ];
