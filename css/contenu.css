@@ -117,6 +117,9 @@ img {
 	margin-bottom: 100px;
 	margin-left: 10px;
 }
+.img_content{
+	display: none;
+}
 .slider-categorie {
 	display: flex;
 	align-items: center;
