@@ -117,7 +117,7 @@
           b: "Les réseaux sociaux (Instagram, Facebook, twitter…)",
           c: "Dans les lieux du quotidien (école, travail, amis…)"
         },
-        correctAnswer: "b"
+        correctAnswer: "a"
       },
       {
         question: "Combien de français est présent sur une application de rencontre ?",
