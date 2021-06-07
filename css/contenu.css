@@ -170,6 +170,47 @@ img {
 	background: url(../image/video/bg/tcf_rencontre_en_ligne_bg.png) no-repeat;
 	background-size: cover;
 }
+/*Card article*/
+.card_article_1 {
+	background: url(../image/article/article_1_bg.png) no-repeat;
+	background-size: cover;
+
+}
+.card_article_2 {
+	background: url(../image/article/article_2_bg.png) no-repeat;
+	background-size: cover;
+
+}
+.card_article_3 {
+	background: url(../image/article/article_3_bg.png) no-repeat;
+	background-size: cover;
+
+}
+.card_article_4 {
+	background: url(../image/article/article_4_bg.png) no-repeat;
+	background-size: cover;
+
+}
+.card_article_5 {
+	background: url(../image/article/article_5_bg.png) no-repeat;
+	background-size: cover;
+
+}
+.card_article_6 {
+	background: url(../image/article/article_6_bg.png) no-repeat;
+	background-size: cover;
+
+}
+.card_article_7 {
+	background: url(../image/article/article_7_bg.png) no-repeat;
+	background-size: cover;
+
+}
+.card_article_8 {
+	background: url(../image/article/article_8_bg.png) no-repeat;
+	background-size: cover;
+
+}
 .slider-text {
 	display: flex;
 	flex-direction: column-reverse;
