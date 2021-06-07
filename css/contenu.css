@@ -104,7 +104,7 @@ img {
 }
 .card {
 	position: relative;
-	background: url(../image/bgIMG.png) no-repeat;
+	background: url(../image/dataviz/amour_virtuel.png) no-repeat;
 	background-size: cover;
 	height: 70vh;
 	margin: 0 auto;
