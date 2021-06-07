@@ -135,6 +135,41 @@ img {
 	background: url(../image/dataviz/cover_bg/tinder-infographie_bg.png) no-repeat;
 	background-size: cover;
 }
+/*Card video*/
+.card_video{
+	overflow-x: auto;
+}
+.iframe_ytb{
+	display: none;
+}
+.iframe_ytb_open{
+	display: block;
+}
+.card_video_1{
+	background: url(../image/video/bg/documentaire_site_de_rencontre_bg.png) no-repeat;
+	background-size: cover;
+}
+.card_video_2{
+	background: url(../image/video/bg/prince_princesse_bg.png) no-repeat;
+	background-size: cover;
+}
+.card_video_3{
+	background: url(../image/video/bg/norman_appli_de_rencontre_bg.png) no-repeat;
+	background-size: cover;
+}
+.card_video_4{
+	background: url(../image/video/bg/jtc_appli_de_rencontre_bg.png) no-repeat;
+	background-size: cover;
+}
+.card_video_5{
+	background: url(../image/video/bg/tinder_surprise_bg.png) no-repeat;
+	
+	background-size: cover;
+}
+.card_video_6{
+	background: url(../image/video/bg/tcf_rencontre_en_ligne_bg.png) no-repeat;
+	background-size: cover;
+}
 .slider-text {
 	display: flex;
 	flex-direction: column-reverse;
