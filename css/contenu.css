@@ -110,8 +110,29 @@ img {
 	border-radius: 32.71px 132.93px 32.71px 32.71px;
 	display: flex;
 }
-.card_1{
+/* card data viz cover*/
+.card_dataviz_1{
 	background: url(../image/dataviz/cover_bg/amour_virtuel.png) no-repeat;
+	background-size: cover;
+}
+.card_dataviz_2{
+	background: url(../image/dataviz/cover_bg/infographie-dating-universite_bg.png) no-repeat;
+	background-size: cover;
+}
+.card_dataviz_3{
+	background: url(../image/dataviz/cover_bg/infographie-st-valentin_bg.png) no-repeat;
+	background-size: cover;
+}
+.card_dataviz_4{
+	background: url(../image/dataviz/cover_bg/site_de_rencontre_bg.png) no-repeat;
+	background-size: cover;
+}
+.card_dataviz_5{
+	background: url(../image/dataviz/cover_bg/stat_appli_bg.png) no-repeat;
+	background-size: cover;
+}
+.card_dataviz_6{
+	background: url(../image/dataviz/cover_bg/tinder-infographie_bg.png) no-repeat;
 	background-size: cover;
 }
 .slider-text {
@@ -120,6 +141,8 @@ img {
 	margin-bottom: 100px;
 	margin-left: 10px;
 }
+
+
 .img_content{
 	display: none;
 }
