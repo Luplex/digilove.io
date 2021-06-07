@@ -183,13 +183,9 @@ img{
   display: block;
 }
 
-/* On style le rond indicateur
-.qcm-container .checkmark:after {
-  top: 0px;
-  left: 0px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: #A39F03;
+@media screen and (min-width: 580px){
+  button{
+    z-index: 999999999;
+    margin-top: 200px !important;
+  }
 }
- */
