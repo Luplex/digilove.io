@@ -104,12 +104,15 @@ img {
 }
 .card {
 	position: relative;
-	background: url(../image/dataviz/cover_bg/amour_virtuel.png) no-repeat;
-	background-size: cover;
+	
 	height: 70vh;
 	margin: 0 auto;
 	border-radius: 32.71px 132.93px 32.71px 32.71px;
 	display: flex;
+}
+.card_1{
+	background: url(../image/dataviz/cover_bg/amour_virtuel.png) no-repeat;
+	background-size: cover;
 }
 .slider-text {
 	display: flex;
@@ -122,6 +125,7 @@ img {
 }
 .img_content_open{
 	display: block;
+	margin-bottom: 30px;
 }
 .slider-categorie {
 	display: flex;
